@@ -183,14 +183,16 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*@keyframes flash {
-  0%,50%,to {
+@keyframes flash {
+  0%, 50%, to {
     opacity: 1;
   }
-  25%,75% {
+
+  25%, 75% {
     opacity: 0;
   }
 }
+
 /*.flash {
   -webkit-animation-name: flash;
   animation-name: flash;
