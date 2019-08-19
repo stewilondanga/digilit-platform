@@ -166,14 +166,14 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.bounce {
+.bounce {
   -webkit-animation-name: bounce;
   -webkit-transform-origin: center bottom;
   animation-name: bounce;
   transform-origin: center bottom;
 }
 
-@-webkit-keyframes flash {
+/*@-webkit-keyframes flash {
   0%,50%,to {
     opacity: 1;
   }
