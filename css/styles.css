@@ -58,7 +58,7 @@ section:nth-child(4) {
   background: #607D8B;
 }
 
-/*nav {
+nav {
   position: fixed;
   top: 0px;
   width: 100%;
@@ -70,7 +70,7 @@ section:nth-child(4) {
   padding-top: 12px;
 }
 
-nav li {
+/*nav li {
   display: inline-block;
   margin-right: 20px;
 }
