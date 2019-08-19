@@ -47,15 +47,28 @@ section {
   font-size: 3em;
 }
 
+#home{
+  background-image: url("../assets/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #0ED3F7;
+}
+
 section:nth-child(2) {
   background-image: url("../assets/about.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
+  background-size: 100%;
+  color: #F7C90E;
 }
 
 section:nth-child(3) {
-  background: #1976D2;
+  background-image: url("../assets/clients.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #F7270E;
 }
 
 section:nth-child(4) {
