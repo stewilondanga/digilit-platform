@@ -26,11 +26,11 @@ body {
   height: 1.5em;
 }
 
-/*#wrapper {
+#wrapper {
   padding-top: 50px;
 }
 
-#wrapper:after {
+/*#wrapper:after {
   content: '';
   display: block;
   clear: both;
