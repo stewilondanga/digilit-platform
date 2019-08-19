@@ -138,31 +138,35 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*@keyframes bounce {
-  0%,20%,53%,80%,to {
+@keyframes bounce {
+  0%, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translateZ(0);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transform: translateZ(0);
   }
-  40%,43% {
+
+  40%, 43% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     transform: translate3d(0, -30px, 0);
   }
+
   70% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     transform: translate3d(0, -15px, 0);
   }
+
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
   }
 }
-.bounce {
+
+/*.bounce {
   -webkit-animation-name: bounce;
   -webkit-transform-origin: center bottom;
   animation-name: bounce;
