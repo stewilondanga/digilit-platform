@@ -50,7 +50,80 @@
       d) Senior school students
     </b>
     </section>
-    <section id="contact">CONTACT</section>
+    <section id="contact">
+      CONTACT
+      <div id="contact-form-modal" class="modal animated">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+          <!-- Any other Bulma elements you want -->
+              <div class="contact-form-container wrapper">
+                <!-- add .is-hidden to see the animation on the form success box -->
+                  <form action="/" class="contact-form" id="contactform" role="form">
+                      <fieldset class="fieldset">
+                          <legend>Contact for for Bulma</legend>
+                          <div class="field is-grouped">
+                              <div class="control is-expanded">
+                                  <label for="first_name" class="label">First Name</label>
+                                  <input type="text" class="input" name="first_name" id="first_name" placeholder="First Name" aria-placeholder="First Name">
+                              </div>
+                              <div class="control is-expanded">
+                                  <label for="last_name" class="label">Last Name</label>
+                                  <input type="text" class="input" name="last_name" id="last_name" placeholder="Last Name" aria-placeholder="Last Name">
+                              </div>
+                              <!-- /.control -->
+                          </div>
+                          <!-- /.field has-addons -->
+                          <div class="field">
+                              <label class="label" for="email">Email address</label>
+                              <div class="control">
+                                  <!-- add .is-danger -->
+                                  <input type="email" class="input" name="email" id="email" placeholder="Email address" aria-placeholder="Email address">
+                              </div>
+                              <!-- remove .is-hidden -->
+                              <p class="help is-danger is-hidden" aria-hidden="true">Error! Your email address is not correct.</p>
+                              <!-- /.help  is-danger -->
+                              <!-- /.control -->
+                          </div>
+                          <!-- /.field -->
+                          <div class="field">
+                              <label for="Message" class="label">Contact for for Bulma</label>
+                              <div class="control">
+                                  <textarea name="Message" id="message" cols="30" rows="10" class="textarea" placeholder="Message" aria-placeholder="Your Message"></textarea>
+                              </div>
+                          </div>
+                          <!-- /.field -->
+                          <div class="field is-grouped">
+                              <div class="control">
+                                  <!-- @link: https://stackoverflow.com/questions/36227376/better-honeypot-implementation-form-anti-spam -->
+                                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="input" name="contact_us" value="" style="display:none !important;position:absolute;top:0;left:0;width:1px;height:1px;" tabindex="-1" autocomplete="off"></div>
+                                  <button class="button is-primary" type="button">
+                                      Send Message
+                                  </button>
+                                  <!-- /.buton is-primary -->
+                              </div>
+                              <!-- /.control -->
+                          </div>
+                          <!-- /.field is-grouped -->
+                      </fieldset>
+                  </form>
+                  <!-- /#contactform.contact-form -->
+                  <!-- add .is-active-box -->
+                  <div id="form-success" class="box is-radiusless has-background-success has-text-white has-text-centered is-info" aria-hidden="true">
+                      <p class="is-large">Form successfully submitted</p>
+                      <!-- /.is-large -->
+                  </div>
+                  <!-- /#form-success.box -->
+              </div>
+              <!-- /.contact-form-container wrapper -->
+
+          </div><!-- end /.modal-content  -->
+          <button class="modal-close is-large" aria-label="close"></button>
+      </div><!-- end #contact-form-modal -->
+
+  <div class="box box-container">
+  <p class="has-text-centered"><a id="contact-form-button" class="button is-primary" href="javascript:void(0)">Contact Us Now</a></p>
+  </div>  
+    </section>
   </div>
 
   <section id="contact">
