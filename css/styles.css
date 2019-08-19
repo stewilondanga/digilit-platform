@@ -48,7 +48,10 @@ section {
 }
 
 section:nth-child(2) {
-  background: #B6B6B6;
+  background-image: url("../assets/about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
 }
 
 section:nth-child(3) {
