@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,86 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  height: 100%;
+  min-height: 100%;
+}
+
+#wrapper {
+  padding-top: 50px;
+}
+
+#wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background-color: #2196F3;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+}
+
+section:nth-child(2) {
+  background: #B6B6B6;
+}
+
+section:nth-child(3) {
+  background: #1976D2;
+}
+
+section:nth-child(4) {
+  background: #607D8B;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background: #ccc;
+  text-align: center;
+  line-height: 24px;
+  box-shadow: 0px 0px 10px #333;
+  padding-top: 12px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0px;
+}
+
+nav li a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #727272;
+  padding: 4px 10px;
+  transition: all 0.15s ease-in-out;
+  border-bottom: 7px solid #ccc;
+}
+
+nav li a.active, nav li a:hover {
+  border-bottom: 7px solid #1976D2;
+  padding: 4px 10px;
 }
 
 .containers {
