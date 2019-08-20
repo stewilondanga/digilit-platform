@@ -541,12 +541,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.tada {
+.tada {
   -webkit-animation-name: tada;
   animation-name: tada;
 }
 
-@-webkit-keyframes wobble {
+/*@-webkit-keyframes wobble {
   0% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
