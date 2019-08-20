@@ -426,29 +426,34 @@ nav li a.active, nav li a:hover {
   animation-timing-function: ease-in-out;
 }
 
-/*@-webkit-keyframes swing {
+@-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
   }
+
   40% {
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
+
   60% {
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
   }
+
   80% {
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
+
   to {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
-@keyframes swing {
+
+/*@keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
