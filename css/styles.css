@@ -770,7 +770,7 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.heartBeat {
+.heartBeat {
   -webkit-animation-duration: 1.3s;
   -webkit-animation-name: heartBeat;
   -webkit-animation-timing-function: ease-in-out;
@@ -779,7 +779,7 @@ nav li a.active, nav li a:hover {
   animation-timing-function: ease-in-out;
 }
 
-@-webkit-keyframes bounceIn {
+/*@-webkit-keyframes bounceIn {
   0%,20%,40%,60%,80%,to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
