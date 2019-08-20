@@ -311,12 +311,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.rubberBand {
+.rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
 
-@-webkit-keyframes shake {
+/*@-webkit-keyframes shake {
   0%,to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
