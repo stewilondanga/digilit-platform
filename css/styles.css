@@ -1153,12 +1153,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.bounceInUp {
+.bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
 }
 
-@-webkit-keyframes bounceOut {
+/*@-webkit-keyframes bounceOut {
   20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
