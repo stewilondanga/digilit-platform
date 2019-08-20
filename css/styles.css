@@ -350,12 +350,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.shake {
+.shake {
   -webkit-animation-name: shake;
   animation-name: shake;
 }
 
-@-webkit-keyframes headShake {
+/*@-webkit-keyframes headShake {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
