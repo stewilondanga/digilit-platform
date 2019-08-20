@@ -709,14 +709,14 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.jello {
+.jello {
   -webkit-animation-name: jello;
   -webkit-transform-origin: center;
   animation-name: jello;
   transform-origin: center;
 }
 
-@-webkit-keyframes heartBeat {
+/*@-webkit-keyframes heartBeat {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
