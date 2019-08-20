@@ -419,14 +419,14 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.headShake {
+.headShake {
   -webkit-animation-name: headShake;
   -webkit-animation-timing-function: ease-in-out;
   animation-name: headShake;
   animation-timing-function: ease-in-out;
 }
 
-@-webkit-keyframes swing {
+/*@-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
