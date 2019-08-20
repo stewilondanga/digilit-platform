@@ -859,14 +859,14 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.bounceIn {
+.bounceIn {
   -webkit-animation-duration: .75s;
   -webkit-animation-name: bounceIn;
   animation-duration: .75s;
   animation-name: bounceIn;
 }
 
-@-webkit-keyframes bounceInDown {
+/*@-webkit-keyframes bounceInDown {
   0%,60%,75%,90%,to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
