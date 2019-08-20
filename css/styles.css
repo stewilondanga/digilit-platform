@@ -620,12 +620,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.wobble {
+.wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
 }
 
-@-webkit-keyframes jello {
+/*@-webkit-keyframes jello {
   0%,11.1%,to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
