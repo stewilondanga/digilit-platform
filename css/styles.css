@@ -1196,14 +1196,14 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.bounceOut {
+.bounceOut {
   -webkit-animation-duration: .75s;
   -webkit-animation-name: bounceOut;
   animation-duration: .75s;
   animation-name: bounceOut;
 }
 
-@-webkit-keyframes bounceOutDown {
+/*@-webkit-keyframes bounceOutDown {
   20% {
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0);
