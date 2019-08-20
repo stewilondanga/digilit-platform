@@ -316,21 +316,24 @@ nav li a.active, nav li a:hover {
   animation-name: rubberBand;
 }
 
-/*@-webkit-keyframes shake {
-  0%,to {
+@-webkit-keyframes shake {
+  0%, to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
-  10%,30%,50%,70%,90% {
+
+  10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translate3d(-10px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
-  20%,40%,60%,80% {
+
+  20%, 40%, 60%, 80% {
     -webkit-transform: translate3d(10px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
 }
-@keyframes shake {
+
+/*@keyframes shake {
   0%,to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
