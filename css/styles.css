@@ -232,12 +232,12 @@ nav li a.active, nav li a:hover {
   }
 }
 
-/*.pulse {
+.pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
 
-@-webkit-keyframes rubberBand {
+/*@-webkit-keyframes rubberBand {
   0% {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
