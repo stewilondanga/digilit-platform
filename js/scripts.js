@@ -52,14 +52,6 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function () {
-    $("#contact-form-button").on('click', function() {
-        $("#contact-form-modal").addClass("is-active");
-    });
-    $("#contact-form-modal button.modal-close").on('click', function() {
-        $("#contact-form-modal").addClass("slideOutUp").removeClass("is-active");
-    });
-});
 
 var navigate = (function() {
   $('.dd').toggle();
