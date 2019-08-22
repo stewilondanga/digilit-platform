@@ -115,63 +115,6 @@ nav li a.active, nav li a:hover {
   padding: 4px 10px;
 }
 
-.formulario {
-  width: 500px;
-  margin: auto;
-  max-width: 100%;
-  margin-top: 30px;
-  padding: 20px;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-
-.formulario_titulo {
-  text-align: center;
-  margin-top: 0;
-  color: white;
-}
-
-.formulario_input, .formulario_label, .formulario_submit {
-  display: block;
-  width: 100%;
-  font-size: 1.3em;
-  color: white;
-  font-family: monospace;
-}
-
-.formulario_input {
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-bottom: 40px;
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.formulario_label {
-  padding-left: 15px;
-  position: absolute;
-  margin-top: -85px;
-  z-index: -20px;
-  transition: all 0.3s;
-  color: white;
-  animation: shake 0.3s;
-}
-
-.formulario_submit {
-  background: transparent;
-  color: white;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.formulario_input:focus+.formulario_label {
-  margin-top: -135px;
-}
-
-.fijar {
-  margin-top: -135px;
-}
-
 .containers {
   width: 520px;
   margin: 20px auto;
