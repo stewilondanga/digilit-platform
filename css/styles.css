@@ -6,7 +6,7 @@
 
 html {
   max-width: 100%;
-  height: inherit;
+  height: auto;
 }
 
 body {
