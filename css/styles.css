@@ -146,7 +146,7 @@ nav li a.active, nav li a:hover {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/*.formulario_label {
+.formulario_label {
   padding-left: 15px;
   position: absolute;
   margin-top: -85px;
@@ -155,7 +155,8 @@ nav li a.active, nav li a:hover {
   color: white;
   animation: shake 0.3s;
 }
-.formulario_submit {
+
+/*.formulario_submit {
   background: transparent;
   color: white;
   padding: 10px 20px;
