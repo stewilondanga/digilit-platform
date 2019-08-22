@@ -3,6 +3,10 @@
 * {
   box-sizing: border-box;
 }
+html{
+  max-width: 100%;
+  height: inherit;
+}
 
 body {
   font-family: 'Fira Sans', sans-serif;
