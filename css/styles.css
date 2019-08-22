@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }*/
 html {
-  max-width: 100%;
+  max-width: inherit;
   height: auto;
 }
 
 body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
-  max-width: 100%;
 }
 
 .my_social {
