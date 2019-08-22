@@ -156,14 +156,15 @@ nav li a.active, nav li a:hover {
   animation: shake 0.3s;
 }
 
-/*.formulario_submit {
+.formulario_submit {
   background: transparent;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 20px;
 }
-.formulario_input:focus + .formulario_label {
+
+/*.formulario_input:focus + .formulario_label {
   margin-top: -135px;
 }
 .fijar {
