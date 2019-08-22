@@ -40,47 +40,6 @@ body {
   clear: both;
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-  float: left;
-  background-color: #2196F3;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 3em;
-}
-
-#home {
-  background-image: url("../assets/home.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  color: #0ED3F7;
-  font-size: 70px;
-}
-
-section:nth-child(2) {
-  background-image: url("../assets/about.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  color: #F7C90E;
-}
-
-section:nth-child(3) {
-  background-image: url("../assets/clients.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  color: #F7270E;
-}
-
-section:nth-child(4) {
-  font-family: monospace;
-  background: tomato;
-  color: white;
-}
-
 nav {
   position: fixed;
   top: 0px;
@@ -116,22 +75,286 @@ nav li a.active, nav li a:hover {
   padding: 4px 10px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  max-width: 100%;
-  height: auto;
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  max-width: 100%;
-  height: auto;
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  max-width: 100%;
-  height: auto;
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: #2196F3;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+  }
+
+  #home {
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #0ED3F7;
+    font-size: 70px;
+  }
+
+  section:nth-child(2) {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7C90E;
+  }
+
+  section:nth-child(3) {
+    background-image: url("../assets/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #F7270E;
+  }
+
+  section:nth-child(4) {
+    font-family: monospace;
+    background: tomato;
+    color: white;
+  }
 }
 
 .containers {
