@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }*/
 html {
-  max-width: inherit;
+  max-width: 100%;
   height: auto;
 }
 
@@ -54,6 +54,7 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  image-orientation: inherit;
   color: #0ED3F7;
   font-size: 70px;
 }
@@ -63,6 +64,7 @@ section:nth-child(2) {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  image-orientation: inherit;
   color: #F7C90E;
 }
 
@@ -71,6 +73,7 @@ section:nth-child(3) {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  image-orientation: inherit;
   color: #F7270E;
 }
 
