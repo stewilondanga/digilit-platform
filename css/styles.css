@@ -69,11 +69,11 @@ section:nth-child(3) {
   background-position: center;
   background-size: 100%;
   color: #F7270E;
-  box-sizing: border-box;
 }
 
 section:nth-child(4) {
   background: #607D8B;
+  box-sizing: border-box;
 }
 
 nav {
