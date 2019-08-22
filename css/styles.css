@@ -125,12 +125,13 @@ nav li a.active, nav li a:hover {
   position: relative;
 }
 
-/*.formulario_titulo {
+.formulario_titulo {
   text-align: center;
   margin-top: 0;
   color: white;
 }
-.formulario_input, .formulario_label, .formulario_submit {
+
+/*.formulario_input, .formulario_label, .formulario_submit {
   display: block;
   width: 100%;
   font-size: 1.3em;
