@@ -74,6 +74,10 @@ section:nth-child(3) {
 section:nth-child(4) {
   background: #607D8B;
   box-sizing: border-box;
+  margin: 0;
+  font-family: monospace;
+  background: tomato;
+  color: white;
 }
 
 nav {
@@ -114,10 +118,7 @@ nav li a.active, nav li a:hover {
 /*
 
 body {
-  margin: 0;
-  font-family: monospace;
-  background: tomato;
-  color: white;
+
 }
 .formulario {
   width: 500px;
