@@ -164,10 +164,11 @@ nav li a.active, nav li a:hover {
   border-radius: 20px;
 }
 
-/*.formulario_input:focus + .formulario_label {
+.formulario_input:focus+.formulario_label {
   margin-top: -135px;
 }
-.fijar {
+
+/*.fijar {
   margin-top: -135px;
 }
 */
