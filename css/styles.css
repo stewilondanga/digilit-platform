@@ -139,12 +139,12 @@ nav {
   padding-top: 12px;
 }
 
-/*nav li {
+nav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav li:last-child {
+/*nav li:last-child {
   margin-right: 0px;
 }
 
