@@ -390,7 +390,7 @@ nav li a.active, nav li a:hover {
     color: #F7270E;
   }
 
-  /*section:nth-child(4) {
+  section:nth-child(4) {
     font-family: monospace;
     background: tomato;
     color: white;
@@ -401,7 +401,7 @@ nav li a.active, nav li a:hover {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-  /*@media (min-width: 320px) and (max-width: 480px) {
+/*@media (min-width: 320px) and (max-width: 480px) {
   section {
     width: 100%;
     height: 100vh;
