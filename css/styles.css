@@ -116,12 +116,12 @@ body {
   transition-delay: 0.4s;
 }
 
-/*#wrapper {
+#wrapper {
   padding-top: 50px;
   margin:
 }
 
-#wrapper:after {
+/*#wrapper:after {
   content: '';
   display: block;
   clear: both;
