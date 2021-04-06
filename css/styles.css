@@ -9,12 +9,12 @@ html {
   height: auto;
 }
 
-/*body {
+body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
 }
 
-.share__icon {
+/*.share__icon {
   width: 32px;
   height: 32px;
   fill: #fff;
