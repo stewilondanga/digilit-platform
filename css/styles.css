@@ -127,7 +127,7 @@ body {
   clear: both;
 }
 
-/*nav {
+nav {
   position: fixed;
   top: 0px;
   width: 100%;
@@ -139,7 +139,7 @@ body {
   padding-top: 12px;
 }
 
-nav li {
+/*nav li {
   display: inline-block;
   margin-right: 20px;
 }
