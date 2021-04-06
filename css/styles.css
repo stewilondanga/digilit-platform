@@ -121,13 +121,13 @@ body {
   margin:
 }
 
-/*#wrapper:after {
+#wrapper:after {
   content: '';
   display: block;
   clear: both;
 }
 
-nav {
+/*nav {
   position: fixed;
   top: 0px;
   width: 100%;
