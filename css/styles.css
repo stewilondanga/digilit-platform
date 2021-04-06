@@ -95,12 +95,12 @@ body {
   transform: rotateX(90deg);
 }
 
-/*.share-button:hover .share__link {
+.share-button:hover .share__link {
   top: 0;
   opacity: 1;
 }
 
-.share-button:hover .share__link:nth-of-type(1) {
+/*.share-button:hover .share__link:nth-of-type(1) {
   transition-delay: 0.1s;
 }
 
