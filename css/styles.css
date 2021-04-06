@@ -335,7 +335,7 @@ nav li a.active, nav li a:hover {
     color: #F7C90E;
   }
 
-  /*section:nth-child(3) {
+  section:nth-child(3) {
     background-image: url("../assets/clients.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -343,7 +343,7 @@ nav li a.active, nav li a:hover {
     color: #F7270E;
   }
 
-  section:nth-child(4) {
+  /*section:nth-child(4) {
     font-family: monospace;
     background: tomato;
     color: white;
