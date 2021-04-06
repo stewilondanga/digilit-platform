@@ -157,7 +157,7 @@ nav li a {
   border-bottom: 7px solid #ccc;
 }
 
-/*nav li a.active, nav li a:hover {
+nav li a.active, nav li a:hover {
   border-bottom: 7px solid #1976D2;
   padding: 4px 10px;
 }
