@@ -318,7 +318,7 @@ nav li a.active, nav li a:hover {
     font-size: 3em;
   }
 
-  /*#home {
+  #home {
     background-image: url("../assets/home.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -327,7 +327,7 @@ nav li a.active, nav li a:hover {
     font-size: 70px;
   }
 
-  section:nth-child(2) {
+  /*section:nth-child(2) {
     background-image: url("../assets/about.jpg");
     background-repeat: no-repeat;
     background-position: center;
