@@ -91,11 +91,11 @@ body {
   transition: top .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/*.share-button:hover .share-button__front {
+.share-button:hover .share-button__front {
   transform: rotateX(90deg);
 }
 
-.share-button:hover .share__link {
+/*.share-button:hover .share__link {
   top: 0;
   opacity: 1;
 }
