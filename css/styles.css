@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500);
-/** {
+
+* {
   box-sizing: border-box;
 }
 
-html {
+/*html {
   max-width: 100%;
   height: auto;
 }
