@@ -17,12 +17,12 @@ table {
   border-spacing: 0;
 }
 
-/*table th {
+table th {
   padding: 0.5em;
   background: #b0c4de;
 }
 
-.text-center {
+/*.text-center {
   text-align: center;
 }
 
