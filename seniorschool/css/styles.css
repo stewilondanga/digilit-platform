@@ -35,10 +35,11 @@ table tr:nth-child(odd) {
   background: #cccfff;
 }
 
-/*table tr:hover {
+table tr:hover {
   animation: 0.3s ease-in-out 1 scaleRow forwards;
 }
-table tr:first-child th {
+
+/*table tr:first-child th {
   border-top: 1px solid #888;
 }
 table tr:last-child td {
