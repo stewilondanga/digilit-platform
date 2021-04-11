@@ -26,11 +26,12 @@ table th {
   text-align: center;
 }
 
-/*table tr {
+table tr {
   border-top: 1px solid #888;
   border-bottom: 1px solid;
 }
-table tr:nth-child(odd) {
+
+/*table tr:nth-child(odd) {
   background: #cccfff;
 }
 table tr:hover {
