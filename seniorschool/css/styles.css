@@ -80,8 +80,8 @@ table tr td:hover {
   }
 }
 
-/*@media screen and (max-width: 65.5em) {
-  .table-holder {
+@media screen and (max-width: 65.5em) {
+  /*.table-holder {
     margin: 0 1.5em;
   }
 
