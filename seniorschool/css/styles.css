@@ -103,10 +103,11 @@ table tr td:hover {
     display: none;
   }
 
-  /*table tr:last-child td {
+  table tr:last-child td {
     border-bottom: 0;
   }
-  table tr td {
+
+  /*table tr td {
     display: block;
     border-left: 1px solid #888;
     border-right: 1px solid #888;
