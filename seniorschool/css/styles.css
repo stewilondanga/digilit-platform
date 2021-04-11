@@ -72,14 +72,15 @@ table tr td:hover {
     transform: scale(1, 1);
   }
 
-  /*100% {
+  100% {
     -moz-transform: scale(1.015, 1.015);
     -ms-transform: scale(1.015, 1.015);
     -webkit-transform: scale(1.015, 1.015);
     transform: scale(1.015, 1.015);
   }
 }
-@media screen and (max-width: 65.5em) {
+
+/*@media screen and (max-width: 65.5em) {
   .table-holder {
     margin: 0 1.5em;
   }
