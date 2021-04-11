@@ -85,10 +85,11 @@ table tr td:hover {
     margin: 0 1.5em;
   }
 
-  /*table {
+  table {
     margin: 0;
   }
-  table th {
+
+  /*table th {
     display: none;
   }
   table tr {
