@@ -113,13 +113,13 @@ table tr td:hover {
     border-right: 1px solid #888;
   }
 
-  /*table tr td:before {
+  table tr td:before {
     content: attr(data-th) ": ";
     font-weight: bold;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
