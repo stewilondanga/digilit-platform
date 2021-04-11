@@ -65,13 +65,14 @@ table tr td:hover {
 }
 
 @keyframes scaleRow {
-  /*0% {
+  0% {
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  100% {
+
+  /*100% {
     -moz-transform: scale(1.015, 1.015);
     -ms-transform: scale(1.015, 1.015);
     -webkit-transform: scale(1.015, 1.015);
