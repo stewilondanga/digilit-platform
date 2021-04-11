@@ -107,12 +107,13 @@ table tr td:hover {
     border-bottom: 0;
   }
 
-  /*table tr td {
+  table tr td {
     display: block;
     border-left: 1px solid #888;
     border-right: 1px solid #888;
   }
-  table tr td:before {
+
+  /*table tr td:before {
     content: attr(data-th) ": ";
     font-weight: bold;
   }
