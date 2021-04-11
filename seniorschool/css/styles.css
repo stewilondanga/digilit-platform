@@ -22,11 +22,11 @@ table th {
   background: #b0c4de;
 }
 
-/*.text-center {
+.text-center {
   text-align: center;
 }
 
-table tr {
+/*table tr {
   border-top: 1px solid #888;
   border-bottom: 1px solid;
 }
