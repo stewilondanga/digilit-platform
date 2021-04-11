@@ -4,10 +4,6 @@ html, body {
   font-family: 'Lato', sans-serif;
 }
 
-/*
-
-
-
 .table-holder {
   max-width: 1240px;
   display: flex;
@@ -15,7 +11,7 @@ html, body {
   margin: 0 auto;
 }
 
-table {
+/*table {
   width: 100%;
   justify-content: center;
   border-spacing: 0;
