@@ -81,11 +81,11 @@ table tr td:hover {
 }
 
 @media screen and (max-width: 65.5em) {
-  /*.table-holder {
+  .table-holder {
     margin: 0 1.5em;
   }
 
-  table {
+  /*table {
     margin: 0;
   }
   table th {
