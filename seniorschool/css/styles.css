@@ -99,10 +99,11 @@ table tr td:hover {
     margin-bottom: 0.5em;
   }
 
-  /*table tr:first-child {
+  table tr:first-child {
     display: none;
   }
-  table tr:last-child td {
+
+  /*table tr:last-child td {
     border-bottom: 0;
   }
   table tr td {
