@@ -1,9 +1,113 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html, body {
+  font-family: 'Lato', sans-serif;
+}
+
+.table-holder {
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  justify-content: center;
+  border-spacing: 0;
+}
+table th {
+  padding: 0.5em;
+  background: #b0c4de;
+}
+
+.text-center {
+  text-align: center;
+}
+
+table tr {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid;
+}
+table tr:nth-child(odd) {
+  background: #cccfff;
+}
+table tr:hover {
+  animation: 0.3s ease-in-out 1 scaleRow forwards;
+}
+table tr:first-child th {
+  border-top: 1px solid #888;
+}
+table tr:last-child td {
+  border-bottom: 1px solid #888;
+}
+table tr th:first-child, table tr td:first-child {
+  border-left: 1px solid #888;
+}
+table tr th:last-child, table tr td:last-child {
+  border-right: 1px solid #888;
+}
+table tr td {
+  padding: 0.5em;
+}
+table tr td:hover {
+  background: #888;
+  color: #fff;
+}
+
+@keyframes scaleRow {
+  0% {
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  100% {
+    -moz-transform: scale(1.015, 1.015);
+    -ms-transform: scale(1.015, 1.015);
+    -webkit-transform: scale(1.015, 1.015);
+    transform: scale(1.015, 1.015);
+  }
+}
+@media screen and (max-width: 65.5em) {
+  .table-holder {
+    margin: 0 1.5em;
+  }
+
+  table {
+    margin: 0;
+  }
+  table th {
+    display: none;
+  }
+  table tr {
+    display: block;
+    border-bottom: 1px solid #888;
+    margin-bottom: 0.5em;
+  }
+  table tr:first-child {
+    display: none;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td {
+    display: block;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+  }
+  table tr td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+  }
 }
 
 .containers {
