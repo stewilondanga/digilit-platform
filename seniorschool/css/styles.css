@@ -64,8 +64,8 @@ table tr td:hover {
   color: #fff;
 }
 
-/*@keyframes scaleRow {
-  0% {
+@keyframes scaleRow {
+  /*0% {
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
