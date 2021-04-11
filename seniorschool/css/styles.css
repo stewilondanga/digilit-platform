@@ -59,12 +59,12 @@ table tr td {
   padding: 0.5em;
 }
 
-/*table tr td:hover {
+table tr td:hover {
   background: #888;
   color: #fff;
 }
 
-@keyframes scaleRow {
+/*@keyframes scaleRow {
   0% {
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
