@@ -11,12 +11,13 @@ html, body {
   margin: 0 auto;
 }
 
-/*table {
+table {
   width: 100%;
   justify-content: center;
   border-spacing: 0;
 }
-table th {
+
+/*table th {
   padding: 0.5em;
   background: #b0c4de;
 }
