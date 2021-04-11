@@ -89,10 +89,11 @@ table tr td:hover {
     margin: 0;
   }
 
-  /*table th {
+  table th {
     display: none;
   }
-  table tr {
+
+  /*table tr {
     display: block;
     border-bottom: 1px solid #888;
     margin-bottom: 0.5em;
