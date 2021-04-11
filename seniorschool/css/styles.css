@@ -55,10 +55,11 @@ table tr th:last-child, table tr td:last-child {
   border-right: 1px solid #888;
 }
 
-/*table tr td {
+table tr td {
   padding: 0.5em;
 }
-table tr td:hover {
+
+/*table tr td:hover {
   background: #888;
   color: #fff;
 }
