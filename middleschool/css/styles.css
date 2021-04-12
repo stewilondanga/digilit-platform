@@ -87,12 +87,13 @@ h2 {
     float: left;
   }
 
-  /*.fl-table tbody {
+  .fl-table tbody {
     width: auto;
     position: relative;
     overflow-x: auto;
   }
 
+  /*
   .fl-table td, .fl-table th {
     padding: 20px .625em .625em .625em;
     height: 60px;
