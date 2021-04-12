@@ -131,13 +131,13 @@ h2 {
     border-right: 1px solid #E6E4E4;
   }
 
-  /*
   .fl-table tbody td {
     display: block;
     text-align: center;
   }
 }
 
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
