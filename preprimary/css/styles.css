@@ -23,12 +23,13 @@ table:before {
   font-size: 10px;
 }
 
-/*table thead,
+table thead,
 table tbody,
 table thead th {
   display: block;
 }
-table th,
+
+/*table th,
 table td {
   padding: 15px 10px 0;
   height: 110px;
