@@ -258,13 +258,13 @@ table tbody tr:nth-child(3) td:nth-child(odd) {
   border-right: 1px solid #ebf4ca;
 }
 
-/*table tbody tr:nth-child(3) td:nth-child(even) {
+table tbody tr:nth-child(3) td:nth-child(even) {
   background-color: #daeba0;
   border-bottom: 1px solid #daeba0;
   border-right: 1px solid #daeba0;
 }
 
-table tbody tr:nth-child(4) td:first-child:nth-child(odd) {
+/*table tbody tr:nth-child(4) td:first-child:nth-child(odd) {
   background-color: #745BC8;
   border-bottom: 1px solid #745BC8;
   border-right: 1px solid #745BC8;
