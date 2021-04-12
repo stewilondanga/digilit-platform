@@ -204,12 +204,13 @@ table tbody tr:nth-child(6) td:nth-child(odd) {
   border-right: 1px solid #97b0c7;
 }
 
-/*table tbody tr:nth-child(6) td:nth-child(even) {
+table tbody tr:nth-child(6) td:nth-child(even) {
   background-color: #7697b5;
   border-bottom: 1px solid #7697b5;
   border-right: 1px solid #7697b5;
 }
 
+/*
 table tbody tr:nth-child(1) td:first-child:nth-child(odd) {
   background-color: #1EBD9C;
   border-bottom: 1px solid #1EBD9C;
