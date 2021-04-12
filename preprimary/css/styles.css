@@ -40,10 +40,11 @@ table td {
   text-overflow: ellipsis;
 }
 
-/*table th {
+table th {
   padding-top: 45px;
 }
-table thead {
+
+/*table thead {
   float: left;
   white-space: nowrap;
 }
