@@ -93,7 +93,6 @@ h2 {
     overflow-x: auto;
   }
 
-  /*
   .fl-table td, .fl-table th {
     padding: 20px .625em .625em .625em;
     height: 60px;
@@ -106,6 +105,7 @@ h2 {
     text-overflow: ellipsis;
   }
 
+  /*
   .fl-table thead th {
     text-align: left;
     border-bottom: 1px solid #f7f7f9;
