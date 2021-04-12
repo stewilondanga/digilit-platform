@@ -58,13 +58,14 @@ table thead tr th {
   font-weight: bold;
 }
 
-/*table thead tr th:first-child {
+table thead tr th:first-child {
   white-space: nowrap;
   height: 60px;
   padding: 20px 40px;
   background: none;
 }
-table thead tr th:nth-child(even) {
+
+/*table thead tr th:nth-child(even) {
   background-color: #D8D8D8;
 }
 table tbody {
