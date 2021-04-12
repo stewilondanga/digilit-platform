@@ -323,7 +323,6 @@ table tbody tr:nth-child(6) td:nth-child(even) {
   margin: 20px auto;
 }
 
-/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
@@ -335,6 +334,7 @@ table tbody tr:nth-child(6) td:nth-child(even) {
   margin: 0 auto;
 }
 
+/*
 .cal {
   display: inline-block;
   background: #ffe;
