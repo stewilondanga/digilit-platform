@@ -56,11 +56,11 @@ h2 {
   background: #324960;
 }
 
-/*.fl-table tr:nth-child(even) {
+.fl-table tr:nth-child(even) {
   background: #F8F8F8;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .fl-table {
     display: block;
     width: 100%;
