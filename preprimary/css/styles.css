@@ -334,7 +334,6 @@ table tbody tr:nth-child(6) td:nth-child(even) {
   margin: 0 auto;
 }
 
-/*
 .cal {
   display: inline-block;
   background: #ffe;
@@ -345,6 +344,7 @@ table tbody tr:nth-child(6) td:nth-child(even) {
   transition: all 0.2s linear;
 }
 
+/*
 .cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
