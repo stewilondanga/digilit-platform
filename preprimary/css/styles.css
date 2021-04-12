@@ -14,7 +14,7 @@ table {
   font-family: Arial;
 }
 
-/*table:before {
+table:before {
   content: "Scroll to see more >";
   position: absolute;
   top: -25px;
@@ -22,7 +22,8 @@ table {
   text-transform: uppercase;
   font-size: 10px;
 }
-table thead,
+
+/*table thead,
 table tbody,
 table thead th {
   display: block;
