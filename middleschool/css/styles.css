@@ -114,11 +114,11 @@ h2 {
     display: table-cell;
   }
 
-  /*
   .fl-table tbody tr:nth-child(odd) {
     background: none;
   }
 
+  /*
   .fl-table tr:nth-child(even) {
     background: transparent;
   }
