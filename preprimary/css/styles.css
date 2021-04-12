@@ -44,11 +44,12 @@ table th {
   padding-top: 45px;
 }
 
-/*table thead {
+table thead {
   float: left;
   white-space: nowrap;
 }
-table thead tr th {
+
+/*table thead tr th {
   white-space: nowrap;
   border-bottom: none;
   border-right: none;
