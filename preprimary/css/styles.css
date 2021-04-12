@@ -75,10 +75,11 @@ table tbody {
   overflow-x: auto;
 }
 
-/*table tbody tr {
+table tbody tr {
   display: table-cell;
 }
-table tbody tr td {
+
+/*table tbody tr td {
   display: block;
   text-align: center;
   border-bottom: 1px solid #E6E4E4;
