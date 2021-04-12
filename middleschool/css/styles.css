@@ -105,12 +105,12 @@ h2 {
     text-overflow: ellipsis;
   }
 
-  /*
   .fl-table thead th {
     text-align: left;
     border-bottom: 1px solid #f7f7f9;
   }
 
+  /*
   .fl-table tbody tr {
     display: table-cell;
   }
