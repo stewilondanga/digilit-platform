@@ -97,12 +97,12 @@ table tbody tr td:first-child {
   letter-spacing: 1px;
 }
 
-/*table tbody tr td:nth-child(even) {
+table tbody tr td:nth-child(even) {
   background: #F8F8F8;
   border-right: 1px solid #E6E4E4;
 }
 
-
+/*
 table tbody tr:nth-child(1) td:first-child:nth-child(odd) {
   background-color: #1EBD9C;
   border-bottom: 1px solid #1EBD9C;
