@@ -75,11 +75,11 @@ h2 {
     padding: 0 0 10px;
   }
 
-  /*
   .fl-table thead, .fl-table tbody, .fl-table thead th {
     display: block;
   }
 
+  /*
   .fl-table thead th:last-child {
     border-bottom: none;
   }
