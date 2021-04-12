@@ -344,12 +344,12 @@ table tbody tr:nth-child(6) td:nth-child(even) {
   transition: all 0.2s linear;
 }
 
-/*
 .cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
 
+/*
 .cal caption {
   background: #d44;
   color: #eee;
