@@ -60,8 +60,8 @@ h2 {
   background: #F8F8F8;
 }
 
-/*@media (max-width: 767px) {
-  .fl-table {
+@media (max-width: 767px) {
+  /*.fl-table {
     display: block;
     width: 100%;
   }
