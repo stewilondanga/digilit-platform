@@ -1,11 +1,10 @@
-/*
-
 .table-wrapper {
   max-width: 900px;
   margin: 30px auto 100px;
   box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.2);
 }
 
+/*
 table {
   display: block;
   width: 100%;
