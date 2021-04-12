@@ -65,10 +65,11 @@ table thead tr th:first-child {
   background: none;
 }
 
-/*table thead tr th:nth-child(even) {
+table thead tr th:nth-child(even) {
   background-color: #D8D8D8;
 }
-table tbody {
+
+/*table tbody {
   width: auto;
   position: relative;
   overflow-x: auto;
