@@ -83,11 +83,11 @@ h2 {
     border-bottom: none;
   }
 
-  /*.fl-table thead {
+  .fl-table thead {
     float: left;
   }
 
-  .fl-table tbody {
+  /*.fl-table tbody {
     width: auto;
     position: relative;
     overflow-x: auto;
