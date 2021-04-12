@@ -29,7 +29,7 @@ table thead th {
   display: block;
 }
 
-/*table th,
+table th,
 table td {
   padding: 15px 10px 0;
   height: 110px;
@@ -39,7 +39,8 @@ table td {
   font-size: 12px;
   text-overflow: ellipsis;
 }
-table th {
+
+/*table th {
   padding-top: 45px;
 }
 table thead {
