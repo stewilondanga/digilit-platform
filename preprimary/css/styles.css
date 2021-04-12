@@ -312,12 +312,13 @@ table tbody tr:nth-child(6) td:nth-child(odd) {
   border-right: 1px solid #97b0c7;
 }
 
-/*table tbody tr:nth-child(6) td:nth-child(even) {
+table tbody tr:nth-child(6) td:nth-child(even) {
   background-color: #7697b5;
   border-bottom: 1px solid #7697b5;
   border-right: 1px solid #7697b5;
 }
 
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
