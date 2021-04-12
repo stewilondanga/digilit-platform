@@ -118,11 +118,11 @@ h2 {
     background: none;
   }
 
-  /*
   .fl-table tr:nth-child(even) {
     background: transparent;
   }
 
+  /*
   .fl-table tr td:nth-child(odd) {
     background: #F8F8F8;
     border-right: 1px solid #E6E4E4;
