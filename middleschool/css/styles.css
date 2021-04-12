@@ -24,7 +24,6 @@ h2 {
   box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
 }
 
-/*
 .fl-table {
   border-radius: 5px;
   font-size: 12px;
@@ -37,6 +36,7 @@ h2 {
   background-color: white;
 }
 
+/*
 .fl-table td, .fl-table th {
   text-align: center;
   padding: 8px;
