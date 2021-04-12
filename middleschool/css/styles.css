@@ -79,12 +79,11 @@ h2 {
     display: block;
   }
 
-  /*
   .fl-table thead th:last-child {
     border-bottom: none;
   }
 
-  .fl-table thead {
+  /*.fl-table thead {
     float: left;
   }
 
